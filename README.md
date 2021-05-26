@@ -1,8 +1,5 @@
 # Frontend Mentor - Huddle-landing-page
 
-![Desktop Design preview for Huddle landing page section coding challenge](./design/desktop-design.jpg)
-![Mobile Design preview for Huddle landing page section coding challenge](./design/mobile-design.jpg)
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -10,7 +7,7 @@ Thanks for checking out this front-end coding challenge.
 ## Table of contents
 
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
+- [Solution's Screenshots](#screenshot)
 - [Links](#links)
 - [My process](#my-process)
 - [Built with](#built-with)
@@ -20,14 +17,17 @@ Thanks for checking out this front-end coding challenge.
 
 ### The challenge
 
-- Build out the project to the designs provided
+- Build out the project to the designs provided (See below)
+- Desktop Design preview
+  ![Desktop Design preview for Huddle landing page section coding challenge](./design/desktop-design.jpg)
 
 ### Solution's Screenshots
 
-![Desktop-ScreenShot-1](./screenshots/Desktop-ScreenShot1.jpg)
-![Desktop-ScreenShot-2](./screenshots/Desktop-ScreenShot2.jpg)
+- Desktop ScreenShots
+  ![Desktop-ScreenShot-1](./screenshots/Desktop-ScreenShot1.jpg)
+  ![Desktop-ScreenShot-2](./screenshots/Desktop-ScreenShot2.jpg)
 
----
+- Mobile ScreenShots
 
 ![Mobile-ScreenShot-1](./screenshots/Mobile-ScreenShot1.jpg)
 ![Mobile-ScreenShot-1](./screenshots/Mobile-ScreenShot2.jpg)
@@ -35,10 +35,16 @@ Thanks for checking out this front-end coding challenge.
 
 ### Links
 
-- Solution URL: (https://drive.google.com/file/d/1G5BUe5ypnsSXrKbB2HaL8Jl8LRn1fX4g/view?usp=sharing) \*
-- Live Site URL: (https://youssicode.github.io/Profile-Card-Component/) \*
+- Solution URL: (https://github.com/youssicode/Huddle-landing-page)
+- Live Site URL: (https://youssicode.github.io/Huddle-landing-page/)
 
 ## My process
+
+- Building the HTML structure and textes from the desing's preview
+- Linking the HTML file with CSS files, images, icons ..
+- Styling the page (Desktop desing) starting from top to bottom
+- Styling the page under mobile mode.
+- Uploading all files to github.com
 
 ### Built with
 
@@ -46,20 +52,21 @@ Thanks for checking out this front-end coding challenge.
 - CSS custom properties
 - Flex box Layout
 - No use of any Framwork
-- fontawsome fonts icons
-- svg's backgrounds
+- Fontawsome fonts icons
+- Svg's backgrounds
 
 ### What I learned
 
--Dealing with FlexBox Layout and practicing its properties.
--Responsive Web Design using Media Queries
+- Dealing with FlexBox Layout and practicing its properties.
+- Responsive Web Design using Media Queries
 
 ### Continued development
 
--Mastering Responsive Web Design.
+- Mastering Responsive Web Design.
 
 ## Author
 
-- Website - [Youssef](In construction)
+- LinkedIn - [@youssef-el-hrouzi](https://www.linkedin.com/in/youssef-el-hrouzi/)
 - Frontend Mentor - [@youssicode](https://www.frontendmentor.io/profile/youssicode)
-- Facebook - (https://www.facebook.com/youssef.elhrouzi)
+- Facebook - [@youssef.elhrouzi](https://www.facebook.com/youssef.elhrouzi)
+

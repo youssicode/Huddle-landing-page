@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="https://kit.fontawesome.com/527933ce5d.js" crossorigin="anonymous"></script> <!-- for the social media icons -->
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
   <!-- Section 1 : Top Card -->
   <section class="top-section sections">
     <header>
-      <img class="logo" src="images/logo.svg"> <div class="btn">Try It Free</div>
+      <img class="logo" src="images/logo.svg" alt="Logo"> <div class="btn">Try It Free</div>
     </header>
     <div class="testimo-top">
       <div class="testimo-top-content">
@@ -20,7 +21,9 @@
         <p class="testimo-top-quote">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
         <div class="btn-pink">Get Started For Free</div>
       </div>
-      <img src="images/illustration-mockups.svg" alt="illustration-mockups.svg">
+      <!-- <div class="img-testimo-top"> -->
+         <img src="images/illustration-mockups.svg" alt="illustration-mockups.svg">
+    <!-- </div> -->
     </div>
   </section>
 
@@ -48,7 +51,7 @@
       <img src="images/illustration-your-users.svg" alt="illustration-your-users.svg">
     </div>
   </section>
-
+  
   <!-- Section 3 : The footer card -->
   <section class="bottom-section sections">
     <div class="footer-banner">
@@ -57,7 +60,7 @@
     </div>
     <div class="map">
       <div class="company">
-        <img src="images/logo.svg" alt="Footer Logo">
+        <img src="images/logow.svg" alt="Footer Logo">
         <div class="location">
           <img src="images/icon-location.svg" alt="Location">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -82,14 +85,17 @@
         <p>Contact Us</p>
       </div>
       <div class="s-media">
-        see icons fonts
-      </div>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+       </div>
     </div>
     <footer>
       <span class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://www.linkedin.com/in/youssef-el-hrouzi/">Youssef El-</a>.
+        Coded by <a href="https://www.linkedin.com/in/youssef-el-hrouzi/">Youssef</a>
       </span>
+      <br>
       &copy; Copyright 2018 Huddle. All rights reserved.
     </footer>
   </section>

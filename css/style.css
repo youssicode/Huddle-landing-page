@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+  --Body-Copy-Font-size: 18px;
+  --Body-Call-to-actions-Font-Family: sans-serif;
+  --Headings-Font-Family: "Poppins", sans-serif;
+  /* ---------------- */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 0.5px solid red; */
+}
+body {
+  background-color: white;
+  font-family: var(--Body-Call-to-actions-Font-Family);
+  font-size: var(--Body-Copy-Font-size);
+  color: var(--Very-Dark-Cyan);
+  /* -------- */
+}
+
+main {
+  /* background-color: rgb(240, 240, 215); */
+  width: 1440px;
+  margin: 0 auto;
+}
+.sections {
+  width: inherit;
+  height: max-content;
+}
+.top-section {
+  background: var(--Very-Pale-Cyan) url(../images/bg-hero-desktop.svg);
+}
+header {
+  margin: 0px 60px 5px 60px;
+  padding: 40px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  line-height: 1.4;
+}
+.logo {
+  width: 160px;
+}
+.btn {
+  padding: 8px 40px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: small;
+  font-weight: 600;
+}
+.testimo-top {
+  padding: 45px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimo-top-content {
+  width: 35%;
+}
+h1 {
+  font-family: var(--Headings-Font-Family);
+  font-size: 38px;
+}
+h2 {
+  margin: 18px auto;
+  font-size: 26px;
+}
+.testimo-top-quote {
+  margin: 25px 0;
+  font-size: 17px;
+}
+.btn-pink {
+  padding: 25px 70px;
+  margin: 45px auto;
+  background-color: var(--Pink);
+  color: white;
+  border-radius: 50px;
+  font-size: medium;
+  font-weight: 600;
+  width: max-content;
+  box-shadow: 1px 5px 6px lightgray;
+}
+.testimo-top-content .btn-pink {
+  padding: 17px 60px;
+  margin-left: 0;
+}
+
+.testimo-top img {
+  width: 58%;
+}
+
+/* Middle Section */
+.mid-section {
+  margin: 120px 0 250px 0;
+}
+.testimo-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 30px auto;
+  padding: 56px 45px 45px 108px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 2px lightgray;
+}
+.testimo-cards-content {
+  width: 45%;
+}
+.testimo-cards-quote {
+  font-size: 18px;
+  color: var(--Grayish-Blue);
+}
+.testimo-cards img {
+  width: 400px;
+}
+.testimo-card2 {
+  flex-direction: row-reverse;
+}
+.bottom-section {
+  position: relative;
+  padding-top: 150px;
+  background-color: var(--Very-Dark-Cyan);
+  color: var(--Very-Pale-Cyan);
+  height: 525px;
+}
+.footer-banner {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* positioning the banner */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* code repeated */
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 2px lightgray;
+  /* --------------- */
+  color: var(--Very-Dark-Cyan);
+}
+.footer-banner h2 {
+  margin: 55px auto 0 auto;
+}
+.map {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.company {
+  width: 30%;
+  font-size: medium;
+}
+.company img {
+  width: 200px;
+}
+.company div {
+  display: flex;
+  align-items: flex-start;
+}
+.company > div {
+  margin: 20px 0;
+}
+.company div img {
+  width: 20px;
+  margin-right: 20px;
+}
+.about p {
+  margin: 15px 0;
+}
+.contact p {
+  margin: 15px 0;
+}
+footer {
+  float: right;
+  padding: 30px 65px;
+  font-size: 12px;
+}
+.fab {
+  font-size: 1.7rem;
+}
+i {
+  margin-right: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile screen */
+@media (max-width: 375px) {
+  main {
+    width: 100%;
+  }
+  .top-section {
+    background: var(--Very-Pale-Cyan) url(../images/bg-hero-mobile.svg);
+  }
+  header {
+    margin: 0 10px 80px 15px;
+    /* padding: 20px 0 100px 0; */
+    overflow: auto;
+  }
+  p {
+    font-size: 16px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .testimo-top {
+    flex-direction: column;
+    padding: 0 24px 35px;
+  }
+  .testimo-top-content {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .testimo-top-content .btn-pink {
+    margin: 35px auto 55px auto;
+    font-size: small;
+    padding: 13px 55px;
+  }
+  .testimo-top img {
+    width: 90%;
+  }
+  /* Middle Section */
+  .mid-section {
+    margin: 60px 0;
+  }
+  .testimo-cards {
+    flex-direction: column-reverse;
+    padding: 55px 35px 35px;
+    margin: 0 auto 45px auto;
+  }
+  .testimo-cards img {
+    width: 100%;
+  }
+
+  .testimo-cards-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+  }
+  .testimo-cards-quote {
+    font-size: 15px;
+  }
+  .testimo-cards-content h2 {
+    font-size: 22px;
+  }
+  /* Bottom section */
+  .bottom-section {
+    margin-top: 220px;
+    height: max-content;
+  }
+  .footer-banner {
+    width: 94%;
+  }
+  .footer-banner h2 {
+    font-size: 20px;
+  }
+  .footer-banner .btn-pink {
+    padding: 14px 50px;
+    margin: 29px auto 42px;
+    font-size: 11px;
+  }
+  .map {
+    height: max-content;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 17px;
+  }
+  .map div {
+    width: 100%;
+    font-size: 16px;
+  }
+  .company p {
+    font-size: 18px;
+  }
+  .about p,
+  .contact p {
+    font-size: 20px;
+  }
+  .map .s-media {
+    text-align: center;
+    margin-top: 25px;
+  }
+  footer {
+    float: initial;
+    text-align: center;
+  }
+}
+
+/* Small Screens */
+@media (min-width: 776px) and (max-width: 991px) {
+}
+/* Medium and Large Screens */
+@media (min-width: 992px) {
+}

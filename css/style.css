@@ -37,8 +37,8 @@ main {
   background: var(--Very-Pale-Cyan) url(../images/bg-hero-desktop.svg);
 }
 header {
-  margin: 0px 60px 5px 60px;
-  padding: 40px 0 0;
+  margin: 0px 80px 5px 80px;
+  padding: 50px 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,23 +47,24 @@ p {
   line-height: 1.4;
 }
 .logo {
-  width: 160px;
+  width: 200px;
 }
 .btn {
-  padding: 8px 40px;
-  border-radius: 20px;
+  padding: 16px 60px;
+  border-radius: 30px;
   background-color: white;
   font-size: small;
-  font-weight: 600;
+  font-weight: 800;
 }
 .testimo-top {
-  padding: 45px 60px;
+  padding: 55px 80px 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .testimo-top-content {
   width: 35%;
+  padding-top: 60px;
 }
 h1 {
   font-family: var(--Headings-Font-Family);
@@ -71,7 +72,7 @@ h1 {
 }
 h2 {
   margin: 18px auto;
-  font-size: 26px;
+  font-size: 28px;
 }
 .testimo-top-quote {
   margin: 25px 0;
@@ -94,20 +95,20 @@ h2 {
 }
 
 .testimo-top img {
-  width: 58%;
+  width: 54%;
 }
 
 /* Middle Section */
 .mid-section {
-  margin: 120px 0 250px 0;
+  margin: 160px 0 350px 0;
 }
 .testimo-cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 85%;
-  margin: 30px auto;
-  padding: 56px 45px 45px 108px;
+  margin: 40px auto;
+  padding: 70px 45px 45px 108px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 0px 5px 2px lightgray;
@@ -116,7 +117,7 @@ h2 {
   width: 45%;
 }
 .testimo-cards-quote {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--Grayish-Blue);
 }
 .testimo-cards img {
@@ -130,7 +131,7 @@ h2 {
   padding-top: 150px;
   background-color: var(--Very-Dark-Cyan);
   color: var(--Very-Pale-Cyan);
-  height: 525px;
+  height: 570px;
 }
 .footer-banner {
   width: 55%;
@@ -142,7 +143,7 @@ h2 {
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -65%);
   /* code repeated */
   background-color: white;
   border-radius: 15px;
@@ -151,27 +152,31 @@ h2 {
   color: var(--Very-Dark-Cyan);
 }
 .footer-banner h2 {
-  margin: 55px auto 0 auto;
+  margin: 78px auto 0 auto;
+  font-size: 30px;
+}
+.footer-banner .btn-pink {
+  font-weight: 800;
 }
 .map {
-  margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 35px 115px 0 auto;
 }
 .company {
   width: 30%;
   font-size: medium;
 }
 .company img {
-  width: 200px;
+  width: 240px;
 }
 .company div {
   display: flex;
   align-items: flex-start;
 }
 .company > div {
-  margin: 20px 0;
+  margin: 32px 0;
 }
 .company div img {
   width: 20px;
@@ -185,7 +190,7 @@ h2 {
 }
 footer {
   float: right;
-  padding: 30px 65px;
+  padding-right: 115px;
   font-size: 12px;
 }
 .fab {

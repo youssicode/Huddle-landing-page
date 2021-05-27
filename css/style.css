@@ -89,6 +89,11 @@ h2 {
   width: max-content;
   box-shadow: 1px 5px 6px lightgray;
 }
+.btn-pink:hover,
+.btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 .testimo-top-content .btn-pink {
   padding: 17px 60px;
   margin-left: 0;
@@ -199,6 +204,10 @@ footer {
 i {
   margin-right: 10px;
 }
+i:hover {
+  color: var(--Pink);
+  cursor: pointer;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -216,9 +225,12 @@ i {
     background: var(--Very-Pale-Cyan) url(../images/bg-hero-mobile.svg);
   }
   header {
+    padding-top: 25px;
     margin: 0 10px 80px 15px;
-    /* padding: 20px 0 100px 0; */
     overflow: auto;
+  }
+  .btn {
+    padding: 10px 30px;
   }
   p {
     font-size: 16px;
@@ -290,7 +302,12 @@ i {
     height: max-content;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 17px;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+  }
+  .company img {
+    width: 170px;
   }
   .map div {
     width: 100%;
@@ -301,15 +318,16 @@ i {
   }
   .about p,
   .contact p {
-    font-size: 20px;
+    font-size: 18px;
   }
   .map .s-media {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 40px;
   }
   footer {
     float: initial;
     text-align: center;
+    padding-right: initial;
   }
 }
 
